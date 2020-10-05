@@ -1,0 +1,23 @@
+// {
+//   "presets": [
+//     ["env", { "modules": false }],
+//     "stage-3"
+//   ]
+// }
+{
+  "presets": [["env", { "modules": false }]],
+  "plugins": [
+    [
+      "component",
+      // "transform-runtime",
+      {
+        "libraryName": "element-ui",
+        "styleLibraryName": "theme-chalk"
+        // "helpers": false,
+        // "polyfill": false,
+        // "regenerator": true,
+        // "moduleName": "babel-runtime"
+      }
+    ]
+  ]
+}
